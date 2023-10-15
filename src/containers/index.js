@@ -1,0 +1,5 @@
+export { default as Header } from "./header/Header"
+export { default as About } from "./about/About"
+export { default as Visi } from "./visi/VisiIBSAP"
+export { default as Target } from "./target/Target"
+export { default as Footer } from "./footer/Footer"

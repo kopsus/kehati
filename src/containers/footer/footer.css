@@ -1,0 +1,188 @@
+.footer {
+  background-color: #a8ffff;
+  display: flex;
+  gap: 60px;
+}
+
+.footer-hashtag {
+  padding-top: 70px;
+  padding-left: 100px;
+}
+
+.footer-hashtag h5 {
+  color: #1e1e1e;
+  font-family: var(--font-black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+}
+
+.footer-hashtag h1 {
+  color: #1e1e1e;
+  font-size: 48px;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  font-family: var(--font-black);
+}
+
+.footer-image {
+  display: flex;
+  width: 800px;
+  margin-top: 65px;
+  margin-bottom: -5px;
+  position: relative;
+}
+
+.footer-turtle {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.footer-info {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-info h5,
+.footer-info p {
+  font-size: 14px;
+}
+
+.footer-contact {
+  width: 40%;
+}
+
+.footer-contact p {
+  margin-top: 15px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-copyright {
+  margin-top: 60px;
+  font-size: 14px;
+  color: #333;
+}
+
+hr {
+  display: none;
+}
+
+@media screen and (max-width: 1650px) {
+  .footer-image {
+    width: 750px;
+  }
+
+  .footer-karang {
+    width: 650px;
+  }
+
+  .footer-turtle {
+    width: 250px;
+  }
+
+  .footer-right {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .footer-image {
+    width: 650px;
+  }
+
+  .footer-karang {
+    width: 550px;
+  }
+
+  .footer-turtle {
+    width: 200px;
+  }
+
+  .footer-right {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .footer-image {
+    width: 550px;
+  }
+
+  .footer-karang {
+    width: 500px;
+  }
+
+  .footer-turtle {
+    width: 150px;
+  }
+
+  .footer-right {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .footer-hashtag {
+    padding: 32px 16px 0px 16px;
+  }
+
+  .footer-hashtag h1 {
+    font-size: 24px;
+    margin: 16px 0;
+    line-height: 16px;
+  }
+
+  .footer-image {
+    display: none;
+    margin-top: 0;
+  }
+
+  .footer-right {
+    margin-left: 16px;
+  }
+
+  .footer-contact {
+    width: 75%;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 0px;
+  }
+
+  hr {
+    display: block;
+    margin: 16px 0;
+  }
+
+  .footer-copyright {
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+}

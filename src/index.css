@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Satoshi-reg;
+  src: url(assets/fonts/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: Satoshi-light;
+  src: url(assets/fonts/Satoshi-Light.otf);
+}
+
+@font-face {
+  font-family: Satoshi-bold;
+  src: url(assets/fonts/Satoshi-Bold.otf);
+}
+
+@font-face {
+  font-family: Satoshi-black;
+  src: url(assets/fonts/Satoshi-Black.otf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&display=swap");
+
+:root {
+  --font-regular: Satoshi-reg;
+  --font-bold: Satoshi-bold;
+  --font-light: Satoshi-light;
+  --font-black: Satoshi-black;
+  --font-footer: "Abhaya Libre", serif;
+
+  --background-color: #37b7ff;
+  --primary-color: #3073f5;
+}
